@@ -4,7 +4,7 @@ const colorsBlue = [];
 const colorsAlpha = [];
 var angle = 0;
 function setup() {
-  var can = createCanvas(720, 720);
+  var can = createCanvas(600, 600);
   colorMode(HSB, 1);
   for (var n = 0; n < 100; n++) {
     var hu = sqrt(n / 100);
@@ -19,11 +19,11 @@ function setup() {
   }
 }
 function draw() {
-   var a0 = map(mouseX, 0, width, -1, 1); 
+   var a0 = map(mouseX, 0, width, -1, 1);
    var b0 = map(mouseY, 0, height, -1, 1);
   angle += 0.01;
   background(0);
-  var w = abs(sin(angle)+1)*5;
+  var w = abs(sin(angle)+1)*2;
   var h = w;
   var x_min = -w /2;
   var y_min = -h /2 ;
