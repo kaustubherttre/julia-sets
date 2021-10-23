@@ -53,7 +53,7 @@ function draw() {
         pixels[index+ 0] = colorsRed[n];
         pixels[index+ 1] = colorsGreen[n];
         pixels[index+ 2] = colorsBlue[n];
-        //pixels[index+ 3] = colorsAlpha[n];
+        pixels[index+ 3] = colorsAlpha[n];
 
       x += chanx;
     }
