@@ -23,7 +23,7 @@ function draw() {
    var b0 = map(mouseY, 0, height, -1, 1);
   angle += 0.01;
   background(0);
-  var w = abs(sin(angle)+1)*0;//2
+  var w = abs(sin(angle)+1)*1;//2
   var h = w;
   var x_min = -w /2;
   var y_min = -h /2 ;
